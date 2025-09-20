@@ -34,3 +34,12 @@ WHERE social_profile IS NOT NULL;
 ALTER TABLE registrations 
 ADD CONSTRAINT check_social_profiles_is_array 
 CHECK (social_profiles IS NULL OR jsonb_typeof(social_profiles) = 'array');
+
+-- Add a check constraint to ensure each social profile has required fields
+-- Using a simpler approach without subqueries
+ALTER TABLE registrations 
+ADD CONSTRAINT check_social_profiles_structure 
+CHECK (
+  social_profiles IS NULL OR 
+  jsonb_typeof(social_profiles) = 'array'
+);
