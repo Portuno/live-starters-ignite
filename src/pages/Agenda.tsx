@@ -67,7 +67,7 @@ const Agenda = () => {
                 <CardTitle className="text-xl mb-2">Ubicación</CardTitle>
                 <CardDescription className="text-lg mb-3">Cr8tive Labs</CardDescription>
                 <a
-                  href="https://www.google.com/maps/search/Cr8tive+Labs+Calle+Denia+73+Bajo+Valencia+46006"
+                  href="https://www.google.com/maps/place/CR8TIVE+LABS/@39.4613363,-0.378535,15.53z/data=!4m6!3m5!1s0xd604f7997122653:0xaba11b4288585f62!8m2!3d39.4617995!4d-0.3778492!16s%2Fg%2F11x3bmxqw0?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-creator-pink hover:text-creator-purple transition-colors text-sm font-medium"
