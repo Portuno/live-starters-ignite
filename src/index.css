@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Neón Oscuro Color Palette */
+    --background: 0 0% 6%; /* Almost black #0F0F0F */
+    --foreground: 0 0% 100%; /* Pure white #FFFFFF */
+
+    --card: 0 0% 8%; /* Slightly lighter black for cards */
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 100%;
+
+    /* Brand colors - Neon Dark theme */
+    --primary: 60 100% 50%; /* Neon yellow #FFFF00 */
+    --primary-foreground: 0 0% 0%; /* Black text on yellow */
+    
+    --neon-yellow: 60 100% 50%; /* Neon yellow #FFFF00 */
+    --neon-cyan: 180 100% 50%; /* Neon cyan #00FFFF */
+    --pure-white: 0 0% 100%; /* Pure white #FFFFFF */
+    --almost-black: 0 0% 6%; /* Almost black #0F0F0F */
+    --dark-gray: 0 0% 20%; /* Dark gray for secondary text */
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 0 0% 12%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Neon Dark Gradients */
+    --gradient-primary: linear-gradient(135deg, #FFFF00 0%, #FFD700 100%);
+    --gradient-secondary: linear-gradient(135deg, #00FFFF 0%, #0080FF 100%);
+    --gradient-accent: linear-gradient(135deg, #FFFF00 0%, #00FFFF 100%);
+    --gradient-hero: linear-gradient(135deg, #0F0F0F 0%, #1A1A1A 100%);
+    
+    /* Neon Dark Shadows */
+    --shadow-glow: 0 0 40px rgba(255, 255, 0, 0.4);
+    --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode - same as light mode for neon theme */
+    --background: 0 0% 6%; /* Almost black #0F0F0F */
+    --foreground: 0 0% 100%; /* Pure white #FFFFFF */
+
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 60 100% 50%; /* Neon yellow #FFFF00 */
+    --primary-foreground: 0 0% 0%;
+    
+    --neon-yellow: 60 100% 50%;
+    --neon-cyan: 180 100% 50%;
+    --pure-white: 0 0% 100%;
+    --almost-black: 0 0% 6%;
+    --dark-gray: 0 0% 20%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 0 0% 12%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 60 100% 50%;
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 60 100% 50%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 60 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
