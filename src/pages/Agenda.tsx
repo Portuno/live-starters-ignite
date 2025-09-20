@@ -65,15 +65,15 @@ const Agenda = () => {
               <CardContent className="p-6 text-center">
                 <MapPin className="w-12 h-12 text-creator-pink mx-auto mb-4" />
                 <CardTitle className="text-xl mb-2">Ubicación</CardTitle>
-                <CardDescription className="text-lg mb-3">Cr8ative Cowork Ruzafa</CardDescription>
+                <CardDescription className="text-lg mb-3">Cr8tive Labs</CardDescription>
                 <a
-                  href="https://www.google.com/maps/search/Cr8ative+Cowork+Ruzafa+Denia+73+Valencia"
+                  href="https://www.google.com/maps/search/Cr8tive+Labs+Calle+Denia+73+Bajo+Valencia+46006"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-creator-pink hover:text-creator-purple transition-colors text-sm font-medium"
                 >
                   <MapPin className="w-4 h-4" />
-                  Denia 73, Valencia
+                  Calle Denia 73, Bajo, Valencia 46006
                 </a>
               </CardContent>
             </Card>

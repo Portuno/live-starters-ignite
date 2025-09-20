@@ -295,8 +295,8 @@ const Index = () => {
             {/* Mapa */}
             <div className="text-center md:text-right">
               <h4 className="text-lg font-semibold mb-4 text-earth-coral">Ubicación</h4>
-              <p className="text-white/80 mb-2">Cr8ative Cowork Ruzafa</p>
-              <p className="text-white/80 mb-4">Denia 73, Valencia</p>
+              <p className="text-white/80 mb-2">Cr8tive Labs</p>
+              <p className="text-white/80 mb-4">Calle Denia 73, Bajo, Valencia 46006</p>
               <div className="max-w-md mx-auto md:mx-0">
                 <GoogleMap height="200px" />
               </div>

@@ -4,14 +4,14 @@ import { ExternalLink } from "lucide-react";
 
 const ConfirmationMessage = () => {
   return (
-    <Card className="shadow-2xl border border-gray-800 bg-gradient-neon text-white rounded-3xl">
+    <Card className="shadow-2xl border border-neon-cyan/30 bg-neon-black text-white rounded-3xl">
       <CardHeader className="text-center p-8">
-        <CardTitle className="text-4xl font-bold text-white mb-4">
+        <CardTitle className="text-4xl font-bold text-neon-yellow mb-4">
           ¡Gracias por pre-registrarte!
         </CardTitle>
       </CardHeader>
       <CardContent className="text-center space-y-8 p-8">
-        <p className="text-xl leading-relaxed text-white/90">
+        <p className="text-xl leading-relaxed text-white">
           Ya estás en la lista. Como siguiente paso, te invitamos a unirte a nuestra 
           comunidad exclusiva en WhatsApp para no perderte ninguna novedad, resolver 
           tus dudas y conectar con otros asistentes.
