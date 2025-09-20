@@ -124,7 +124,7 @@ const Agenda = () => {
 
             <div className="text-center mt-12">
               <Button asChild className="bg-gradient-primary hover:opacity-90 text-lg px-8 py-6 h-auto shadow-glow">
-                <Link to="/">¡Regístrate ahora!</Link>
+                <Link to="/#registration">¡Regístrate ahora!</Link>
               </Button>
             </div>
           </div>
