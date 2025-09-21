@@ -8,7 +8,7 @@ const Agenda = () => {
     {
       time: "18:00",
       title: "Apertura de Puertas y Bienvenida",
-      description: "Acreditación, un momento para disfrutar de un café y el primer contacto con otros creadores. Prepárate para una tarde de networking y mucho aprendizaje.",
+      description: "Acreditación y el primer contacto con otros creadores. Prepárate para una tarde de networking y mucho aprendizaje.",
       icon: Coffee,
     },
     {
