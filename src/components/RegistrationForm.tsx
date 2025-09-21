@@ -78,10 +78,10 @@ const RegistrationForm = ({ onRegistrationSuccess }: RegistrationFormProps) => {
       <div className="bg-neon-black rounded-3xl shadow-2xl p-12 border border-gray-800">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-white mb-4">
-            ¡Reserva tu lugar!
+            Reserva tu lugar
           </h2>
           <p className="text-white/80 text-xl">
-            Pre-regístrate y recibe las novedades
+            Preregístrate y accede al grupo privado con todas las novedades
           </p>
         </div>
 
